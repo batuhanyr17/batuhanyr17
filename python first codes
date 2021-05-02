@@ -1,0 +1,14 @@
+user_name = input("user_name: ")
+password  = input("Password       : ")
+
+total_length = len(user_name) + len(password)
+
+message = "Your username and password are {} characters in total!"
+
+print(message.format(total_length))
+
+if total_length > 40:
+    print("Your username and password",
+"total length should not exceed 40 characters!")
+else:
+   print("Welcome to System")
