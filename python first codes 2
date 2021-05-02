@@ -1,0 +1,13 @@
+question = input("Tell me a fruit name:")
+
+if question == "apple":
+    print("yes, apple is a fruit...")
+
+if question == "watermelon":
+    print("yes, watermelon is a fruit...")
+
+if question == "pear":
+    print("yes, pear is a fruit...")
+
+else:
+    print(question, "is it really a fruit?")
